@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
                 Toast.makeText(this, R.string.zipcode_entry_error, Toast.LENGTH_SHORT).show()
             }else{
-                Toast.makeText(this, zipcode, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, zipcode,  Toast.LENGTH_SHORT).show()
             }
 
         }
