@@ -24,7 +24,7 @@ class ForecastRepository {
             in 32f.rangeTo(55f) -> "Colder than I would prefer"
             in 55f.rangeTo(65f) -> "Getting better"
             in 65f.rangeTo(80f) -> "That's the sweet spot!"
-            in 80f.rangeTo(90f) -> "Getting a little warm, WHOA!"
+            in 80f.rangeTo(90f) -> "Getting a little WARM!"
             in 90f.rangeTo(100f) -> "BREAK OUT THE A/C IT IS HOT"
             in 100f.rangeTo(Float.MAX_VALUE) -> "WE MUST BE IN ARIZONA, MAYBE THE EQUATOR?"
             else -> "WHAT KIND OF TEMP IS THIS? Does not compute"
